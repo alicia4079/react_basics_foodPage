@@ -9,7 +9,7 @@ const About = () => {
     <div className='about'>
       <h2>About us</h2>
       <p>
-        Welcome to website of {creatorName} ! We are passionate about exploring
+        Welcome to website of {creatorName}! We are passionate about exploring
         and sharing delicious meals from around the world. Our mission is to
         bring the diverse flavors of different cuisines to your table, providing
         you with a culinary journey like no other.
