@@ -3,7 +3,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(181, 246, 5, 0.77);
+  background-color: rgba(182, 246, 5, 0.562);
   font-size: 18px;
 }
 
@@ -21,6 +21,6 @@ main {
 }
 
 footer {
-  background-color: rgba(170, 249, 13, 0.768);
+  background-color: rgba(170, 249, 13, 0.619);
   padding: 10px;
 }

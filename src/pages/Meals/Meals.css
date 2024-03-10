@@ -5,13 +5,13 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-color: rgba(191, 255, 0, 0.301);
   min-height: 85svh;
 }
 
 .select {
-  background-color: rgba(191, 255, 0, 0.71);
+  background-color: rgba(163, 217, 14, 0.579);
   text-align: center;
+  justify-content: center;
 }
 select {
   margin-top: 20px;
