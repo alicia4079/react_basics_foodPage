@@ -1,0 +1,63 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('/tabla.jpg');
+  background-size: cover;
+  min-height: 85svh;
+}
+.about h2 {
+  font-size: 40px;
+}
+
+.about p {
+  max-width: 800px;
+  text-align: center;
+  font-size: 24px;
+}
+
+@media (max-width: 1024px) {
+  .about h2 {
+    color: whitesmoke;
+  }
+  .about p {
+    color: whitesmoke;
+    font-weight: 400;
+  }
+}
+@media (max-width: 900px) {
+  .about {
+    background-image: url('/tabla_pequeña.jpg');
+    background-size: cover;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+  .about h2 {
+    color: whitesmoke;
+    padding-top: 20px;
+  }
+  .about p {
+    margin: 20px;
+    max-width: 600px;
+    font-weight: 400;
+    color: whitesmoke;
+  }
+}
+
+@media (max-width: 650px) {
+  .about p {
+    font-weight: 300;
+    font-size: 18px;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .about h2 {
+    font-size: 26px;
+  }
+  .about p {
+    max-width: 300px;
+  }
+}
