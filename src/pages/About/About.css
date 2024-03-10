@@ -5,7 +5,7 @@
   align-items: center;
   background-image: url('/tabla.jpg');
   background-size: cover;
-  height: 84.5svh;
+  min-height: 85svh;
 }
 .about h2 {
   font-size: 40px;
@@ -19,13 +19,16 @@
 }
 
 @media (max-width: 900px) {
-  .about {
-    justify-content: flex-start;
+  .about h2 {
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black;
   }
+
   .about h2 {
     padding-top: 20px;
   }
   .about p {
+    color: whitesmoke;
     margin: 20px;
     max-width: 600px;
     font-weight: 400;
@@ -46,6 +49,7 @@
     font-size: 26px;
   }
   .about p {
+    color: whitesmoke;
     max-width: 300px;
     font-size: 14px;
   }
