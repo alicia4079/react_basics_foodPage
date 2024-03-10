@@ -4,7 +4,7 @@
   align-items: center;
   min-height: 85svh;
   justify-content: center;
-  background-color: rgb(255, 234, 47);
+  background-color: rgba(255, 255, 0, 0.547);
   text-align: center;
   gap: 5px;
 }
